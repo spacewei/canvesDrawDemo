@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas画字demo</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="canvasDrawDemo.css">
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <canvas class="canvas"></canvas>
+    <span>
+        <button type="button" class="btn-red input-style input-color-width bg-red text-blue">red</button>
+        <button type="button" class="btn-white input-style input-color-width bg-white text-blue">white</button>
+        <button type="button" class="btn-black input-style input-color-width bg-black text-blue">black</button>
+        <button type="button" class="btn-yellow input-style input-color-width bg-yellow text-blue">yellow</button>
+    </span>
+    <span class="line-width-span">
+        <!--<label for="input-line-width">-->
+            <input type="number" id="input-line-width" class="input-style input-line-width" placeholder="5">
+        <!--</label>-->
+        <button type="button" class="btn-line-width input-style">请输入线宽</button>
+    </span>
+    <button type="button" class="btn-default input-style">复原</button>
+</div>
+<script src="canvasDrawDemo.js"></script>
+</body>
+</html>

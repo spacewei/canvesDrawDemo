@@ -1,0 +1,41 @@
+.container{
+    margin: 1rem auto;
+    text-align: center;
+}
+.canvas{
+    display: block;
+    margin: 1rem auto;
+}
+.input-style{
+    vertical-align: bottom;
+    box-sizing: border-box;
+    height: 2rem;
+}
+.line-width-span{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#input-line-width{
+    width: 2rem;
+}
+.input-color-width{
+    width: 3rem;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.text-blue{
+    color: blue;
+}
+/*.btn-line-width{*/
+    /*box-sizing: border-box;*/
+/*}*/
